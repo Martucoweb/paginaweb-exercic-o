@@ -6,6 +6,30 @@
 .fundo.UI/UX-5-hex { color:#8C7632; }
 */
 
+.page-wrapper {
+  position: relative;
+}
+.explanation{
+  width: 60%;
+  border-right: #1f295c solid 1px;
+  padding-right: 2%;
+}
+#design-selection {
+
+  position: absolute;
+  top: 560px;
+  left: 62%;
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+
+
+
+
+
+
+
 aside ul{
   list-style-type: none;
 
@@ -95,3 +119,38 @@ abbr {font-variant:small-caps ;}
 
 
 
+.supporting footer {
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.benefits{
+  display: flex;
+  border-top: #1f295c solid 1px;
+  border-bottom:  solid 1px;
+
+}
+.benefits h3 {
+
+  order: 2;
+  align-self: center;
+flex-basis: 30%;
+}
+
+.participation {
+  display: flex;
+
+  flex-wrap: wrap;
+  border-top: #1f295c solid 1px;
+  
+
+}
+.participation h3, .participation p {
+
+  flex-basis: 50%;
+
+}
+
+.participation h3{
+  align-self: center;
+}
